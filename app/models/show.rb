@@ -16,5 +16,9 @@ class Show < ActiveRecord::Base
     Show.order(rating: :asc).limit(1)[0]
   end
 
+  def self.ratings_sum
+
+  end
+
 
 end
